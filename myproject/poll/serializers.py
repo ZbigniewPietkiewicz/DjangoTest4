@@ -27,8 +27,6 @@ class PollSerializer(serializers.ModelSerializer):
                 'id',
                 'poll_text',
                 'pub_date',
-                'token',
-                'private',
                 'questions'
         )
         model = models.Poll
